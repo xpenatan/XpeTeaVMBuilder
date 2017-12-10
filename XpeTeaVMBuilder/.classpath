@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/gdx"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-classlib-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-core-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-interop-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-jso-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-jso-apis-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-jso-impl-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-platform-0.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/teavm-tooling-0.5.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
