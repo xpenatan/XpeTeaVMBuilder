@@ -19,4 +19,8 @@ public interface XpeTeaVMBuilderInterface {
 	public void assetsClasspath (ArrayList<String> classPaths);
 
 	public abstract void assetsPath (ArrayList<File> paths);
+
+	public abstract boolean minifying ();
+
+
 }

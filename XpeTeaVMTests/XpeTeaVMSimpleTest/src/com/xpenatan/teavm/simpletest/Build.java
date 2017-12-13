@@ -7,8 +7,9 @@ import java.util.ArrayList;
 import com.xpenatan.main.XpeTeaVMBuilder;
 import com.xpenatan.main.XpeTeaVMBuilderInterface;
 import com.xpenatan.main.XpeTeaVMBuilder.XpeTeaVMRunTime;
+import com.xpenatan.teavm.simpletest.launcher.Launcher;
 
-public class Test {
+public class Build {
 
 	public static void main(String[] args) {
 
@@ -34,7 +35,7 @@ public class Test {
 
 			@Override
 			public String getMain() {
-				return "com.xpenatan.teavm.simpletest.Launcher";
+				return Launcher.class.getName();
 //				return "org.teavm.libgdx.invaders.TeaVMLauncher";
 			}
 
@@ -51,6 +52,11 @@ public class Test {
 			@Override
 			public void assetsPath(ArrayList<File> paths) {
 //				paths.add(new File("D:\\Dev\\Projects\\teaVM_GDX\\demos\\invaders\\webapp\\src\\main\\webapp\\assets"));
+			}
+
+			@Override
+			public boolean minifying() {
+				return true;
 			}
 		};
 

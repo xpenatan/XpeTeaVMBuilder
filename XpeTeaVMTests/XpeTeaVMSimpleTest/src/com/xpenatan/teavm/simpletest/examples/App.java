@@ -1,4 +1,4 @@
-package com.xpenatan.teavm.simpletest;
+package com.xpenatan.teavm.simpletest.examples;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;

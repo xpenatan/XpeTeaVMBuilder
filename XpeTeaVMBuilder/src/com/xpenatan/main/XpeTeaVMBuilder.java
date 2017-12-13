@@ -60,7 +60,7 @@ public class XpeTeaVMBuilder {
 
 		File setTargetDirectory = new File(targetDirectory + "\\" + "teavm");
 		String setTargetFileName = "app.js";
-		boolean setMinifying = true;
+		boolean setMinifying = builderInterface.minifying();
 		String mainClass = builderInterface.getMain();
 		File setCacheDirectory = new File("C:\\TeaVMCache");;
 		boolean setIncremental = false;
