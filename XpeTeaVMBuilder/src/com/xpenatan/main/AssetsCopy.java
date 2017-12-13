@@ -74,7 +74,8 @@ public class AssetsCopy {
 				try {
 					System.out.println("Copying classpath asset:");
 					System.out.println(classpathFile);
-					InputStream is = AssetsCopy.class.getClassLoader().getResourceAsStream(classpathFile);
+					String p = classpathFile.replace("/", File.separator);
+					InputStream is = AssetsCopy.class.getClassLoader().getResourceAsStream(p);
 					if(is != null) {
 						FileWrapper dest = target.child(classpathFile);
 						dest.write(is, false);
